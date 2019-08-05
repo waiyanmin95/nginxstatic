@@ -1,4 +1,5 @@
-## Static Docker  
+### Static Docker  ###
+### Thanks you Ko Phyo Min Htun ###
 
 ![alt text](./image.png "Static Website Deployment")
 
@@ -6,23 +7,14 @@ Content reference from [Stranger Things Wiki Page](https://strangerthings.fandom
 
 #### Let's Build It!
 * Download the source folder
-    > #wget https://github.com/phyominhtun1990/static-docker/archive/master.zip -O static-docker.zip
+    > #git clone https://github.com/th3lolipop/nginxstatic.git
 
 * Build image from Dockerfile 
-    > #unzip static-docker.zip
-    
     > #docker build -t image_name . 
 
 * Run static web content with docker run command 
-    > #docker run -d -p 8080:80 image_name 
+    > #docker run -d -p 8080:8080 image_name 
 
 * On Web Browser 
-   > http://localhost:8080
-
-  
-
-
-
-
-
+    > http://localhost:8080
 
